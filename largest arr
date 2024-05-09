@@ -1,0 +1,10 @@
+    if (largest != i) {
+        swap(arr, i, largest);
+        heapify(arr, largest);
+    }
+}
+ 
+ 
+function swap(arr, i, j) {
+    var temp = arr[i];
+    arr[i] = arr[j];
