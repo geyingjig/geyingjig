@@ -1,0 +1,12 @@
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        for (JButton button : buttons) {
+            if (e.getSource() == button) {
+                display.setText(display.getText() + button.getText());
+            }
+        }
+    }
+    public static void main(String[] args) {
+        SimpleCalculator calculator = new SimpleCalculator();
+        calculator.setVisible(true);
+    }
