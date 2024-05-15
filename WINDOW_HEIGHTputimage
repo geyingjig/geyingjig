@@ -1,0 +1,8 @@
+		cleardevice();
+ 
+ 
+ 
+		 ((WINDOW_WIDTH / 2 - WIDTH / 2), 0, WIDTH, WINDOW_HEIGHT, &i_backxing, left, 0, SRCCOPY);
+		putimage(0, 0, (WINDOW_WIDTH / 2 - WIDTH / 2), WINDOW_HEIGHT, &i_backduicheng, 0, 100, SRCCOPY);
+		putimage((WINDOW_WIDTH / 2 + WIDTH / 2), 0, (WINDOW_WIDTH / 2 - WIDTH / 2), WINDOW_HEIGHT, &i_backduicheng, 1200 - (WINDOW_WIDTH / 2 - WIDTH / 2), 100, SRCCOPY);
+ 
