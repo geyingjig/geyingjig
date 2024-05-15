@@ -1,0 +1,6 @@
+		putimage(p_MP->x, p_MP->y, &i_MPS, NOTSRCERASE);
+		putimage(p_MP->x, p_MP->y, &i_MP, SRCINVERT);
+		putimage(p_AP->x, p_AP->y, &i_APS, NOTSRCERASE);
+		putimage(p_AP->x, p_AP->y, &i_AP, SRCINVERT);
+		putimage(p_AP2->x, p_AP2->y, &i_APS, NOTSRCERASE);
+		putimage(p_AP2->x, p_AP2->y, &i_AP, SRCINVERT);
