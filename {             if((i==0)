@@ -1,0 +1,22 @@
+void show()
+{
+    int i,j;
+    for(i=0;i<h;i++)
+    {
+        for(j=0;j<w;j++)
+        {
+            if(f==0)     break;
+            else
+            {
+            if((i==0)||(j==0)||(i==h-1)||(j==w-1))   printf("+");
+            else if((i==p_y)&&(j==p_x))     printf("A");
+            else if((i==b_y)&&(j==b_x))       printf("!");
+            else if((i==e_y)&&(j==e_x))       printf("@");
+            else printf(" ");
+            }    
+        }
+    printf("\n");
+    }
+    if((p_x==e_x)&&(p_y==e_y))    f--;
+}               
+/*分
